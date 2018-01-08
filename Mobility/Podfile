@@ -1,0 +1,37 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '9.0'
+
+target 'Mobility' do
+  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for Mobility
+  pod 'DDMathParser', :git => 'https://github.com/davedelong/DDMathParser.git', :branch => 'swift4'
+  pod 'Toast-Swift', :git => 'https://github.com/scalessec/Toast-Swift.git', :branch => 'feature/Swift-4'
+  pod 'Alamofire', '~> 4.5'
+  pod 'AlamofireNetworkActivityIndicator', '~> 2.2'
+  pod 'SwiftyJSON', '~> 4.0.0-alpha.1'
+  pod 'Sync', '~> 4'
+  pod 'SwiftLint', '~> 0.23'
+  pod 'Charts'
+  pod  'IQKeyboardManagerSwift'
+  
+end
+
+
+target 'MobilityTests' do
+    # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+    use_frameworks!
+    
+    # Pods for Mobility Test
+    pod 'DDMathParser', :git => 'https://github.com/davedelong/DDMathParser.git', :branch => 'swift4'
+    pod 'Toast-Swift', :git => 'https://github.com/scalessec/Toast-Swift.git', :branch => 'feature/Swift-4'
+    pod 'Alamofire', '~> 4.5'
+    pod 'AlamofireNetworkActivityIndicator', '~> 2.2'
+    pod 'SwiftyJSON', '~> 4.0.0-alpha.1'
+    pod 'Sync', '~> 4'
+    pod 'SwiftLint', '~> 0.23'
+    pod 'Charts'
+    pod  'IQKeyboardManagerSwift'
+    
+end

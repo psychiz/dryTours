@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="MobilityConnectionView" customModule="Mobility" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="64"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="J8Z-4K-zzc">
+                    <rect key="frame" x="8" y="8" width="48" height="48"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="48" id="0XR-uB-SZi"/>
+                        <constraint firstAttribute="height" constant="48" id="SaK-zb-hfM"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="x8k-Dy-ms7">
+                    <rect key="frame" x="64" y="8" width="247" height="48"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="48" id="eiA-7I-KKP"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="sFB-gV-kLv">
+                    <rect key="frame" x="319" y="8" width="48" height="48"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="48" id="lyg-Pe-u70"/>
+                        <constraint firstAttribute="height" constant="48" id="m6X-Er-Dd2"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="sFB-gV-kLv" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="8" id="2g9-rF-Dyc"/>
+                <constraint firstItem="x8k-Dy-ms7" firstAttribute="top" secondItem="J8Z-4K-zzc" secondAttribute="top" id="5Ic-Tb-SAw"/>
+                <constraint firstItem="x8k-Dy-ms7" firstAttribute="bottom" secondItem="J8Z-4K-zzc" secondAttribute="bottom" id="6MZ-Kr-kjt"/>
+                <constraint firstItem="J8Z-4K-zzc" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="8" id="LfZ-1Z-aft"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="sFB-gV-kLv" secondAttribute="bottom" constant="8" id="VrN-Wa-2cA"/>
+                <constraint firstItem="x8k-Dy-ms7" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="YCT-ck-X56"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="J8Z-4K-zzc" secondAttribute="bottom" constant="8" id="b9S-SF-Cco"/>
+                <constraint firstItem="sFB-gV-kLv" firstAttribute="leading" secondItem="x8k-Dy-ms7" secondAttribute="trailing" constant="8" id="dRy-7c-Izo"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="sFB-gV-kLv" secondAttribute="trailing" constant="8" id="imW-aq-NYK"/>
+                <constraint firstItem="J8Z-4K-zzc" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="8" id="qQ1-eK-JZn"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <point key="canvasLocation" x="70.5" y="215"/>
+        </view>
+    </objects>
+</document>

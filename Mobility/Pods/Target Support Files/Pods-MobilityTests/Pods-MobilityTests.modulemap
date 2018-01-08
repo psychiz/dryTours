@@ -1,0 +1,6 @@
+framework module Pods_MobilityTests {
+  umbrella header "Pods-MobilityTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

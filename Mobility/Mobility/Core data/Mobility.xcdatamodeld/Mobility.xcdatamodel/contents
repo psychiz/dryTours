@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="13533" systemVersion="17C88" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Technician" representedClassName=".Technician" syncable="YES">
+        <attribute name="defaultSite" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="displayName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="email" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES">
+            <userInfo>
+                <entry key="sync.remoteKey" value="loginID"/>
+            </userInfo>
+        </attribute>
+        <attribute name="loginID" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Tour" representedClassName=".Tour" syncable="YES">
+        <attribute name="rowstamp" optional="YES" attributeType="String" syncable="YES">
+            <userInfo>
+                <entry key="sync.isPrimaryKey" value="true"/>
+                <entry key="sync.remoteKey" value="_rowstamp"/>
+            </userInfo>
+        </attribute>
+        <attribute name="startDate" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="stationid" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="status" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="tourDescription" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Technician" positionX="-18" positionY="27" width="128" height="120"/>
+        <element name="Tour" positionX="-18" positionY="54" width="128" height="120"/>
+    </elements>
+</model>
